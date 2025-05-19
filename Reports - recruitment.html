@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports - recruitment</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#3B82F6',
+            'secondary': '#E5E7EB',
+            'accent': '#10B981',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <div class="w-64 shadow-md flex flex-col">
+      <div class="py-2 px-5 bg-gray-100 pt-5">
+        <div class="flex items-center">
+          <img src="./img/Alien tech logo - side.svg" alt="Alien Resources Logo" class="h-[49px]">
+        </div>
+      </div>
+
+      <nav class="flex pt-2 px-5 bg-gray-100">
+        <ul>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Vector.svg" class="pr-2" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Recruitment.svg" class="pr-2" />
+              <span>Recruitment</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Employee.svg" class="pr-2" />
+              <span>Employee</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Attendance.svg" class="pr-2" />
+              <span>Attendance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Leave.svg" class="pr-2" />
+              <span>Leave</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Pay & Benefits.svg" class="pr-2" />
+              <span>Pay & Benefits</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Performance.svg" class="pr-2" />
+              <span>Performance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Disciplinary.svg" class="pr-2" />
+              <span>Disciplinary</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Lifecycle.svg" class="pr-2" />
+              <span>Employee Lifecycle</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-blue-400 hover:text-blue-400">
+              <img src="img/Analytics.svg" class="pr-2" />
+              <span>Reports & Analytics</span>
+              <i class="fas fa-chevron-up ml-auto text-xs"></i>
+            </a>
+            <ul>   
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500 px-4 ">Overview</li>
+                <li class="py-2 pl-12 pr-3 text-sm bg-blue-500 text-white rounded-md pl-auto">
+                    <a href="#">Reports</a>
+                </li>
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500">Analytics</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="pt-8 pb-4 px-5 border-t flex bg-gray-100">
+        <div class="items-center text-xs text-gray-500">
+          <span>Powered by</span>
+          <img src="img/klevalogo.svg" alt="KlevaHR Logo" class="w-24">
+        </div>
+        <div class="my-auto">
+          <a href="#" class="flex items-center px-3 text-gray-500">
+            <img src="img/Log Out.svg" class="pr-2" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col">
+        <!-- Header -->
+        <header class="bg-white pl-5 pt-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center text-sm text-gray-500">
+                <span>Reports & Analytics</span>
+                <span class="mx-2">›</span>
+                <span>Reports</span>
+                <span class="mx-2">›</span>
+                <span class="text-blue-500">Recruitment</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="flex-1 p-5 overflow-auto">
+            <div class="flex items-center justify-between">
+                <div class="flex">
+                  <h1 class="text-2xl mt-1 font-semibold mr-3">Recruitment</h1>
+                  <button class="border border-blue-400 rounded px-4 py-2 bg-blue-50 text-blue-500">
+                    <span>+</span>
+                    <span>Add Reports</span>
+                  </button>
+                </div>
+
+                <div class="flex items-center">
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full">
+                    <img src="img/Help.svg" />
+                    </button>
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full mx-1">
+                    <img src="img/Notifications.svg" />
+                    </button>
+                    <img src="img/373b3bbeaaa0ab01e57b95c2fe537ecbb39f5222.jpg" alt="User Avatar" class="h-9 w-9 rounded-full">
+                </div>
+            </div>
+
+            <!-- Reports Section -->
+            <div class="pt-4 pb-12 rounded-lg border border-blue-100 mt-5">
+              <div class="flex justify-between items-center mb-4 px-5">
+                  <h2 class="text-lg font-semibold text-gray-800">3 Reports</h2>
+                  <input 
+                      type="text" 
+                      placeholder="Search report name..." 
+                      class="border border-gray-300 px-3 py-2 rounded-lg w-64 text-sm"
+                  >
+              </div>
+
+              <!-- Report Items -->
+              <div class="space-y-2">
+                  <div class="flex justify-between items-center bg-white px-5 pt-2 border-t">
+                      <div class="flex items-center">
+                          <img src="img/Document.svg" class="pr-2">
+                          <span>Hiring trend by department</span>
+                      </div>
+                      <span class="text-sm text-gray-500">Created 2 days ago</span>
+                  </div>
+                  <div class="flex justify-between items-center bg-white px-5 pt-2 border-t">
+                      <div class="flex items-center">
+                        <img src="img/Document.svg" class="pr-2">
+                        <span>Talent pool by department</span>
+                      </div>
+                      <span class="text-sm text-gray-500">Created 2 days ago</span>
+                  </div>
+                  <div class="flex justify-between items-center bg-white px-5 py-2 border-t border-b">
+                      <div class="flex items-center">
+                        <img src="img/Document.svg" class="pr-2">
+                        <span>Recruitment stages breakdown</span>
+                      </div>
+                      <span class="text-sm text-gray-500">Created 2 days ago</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

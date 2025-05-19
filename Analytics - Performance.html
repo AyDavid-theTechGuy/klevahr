@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics - Performance</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="tailwind.js"></script>
+</head>
+
+<body class="font-sans">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <div class="w-56 shadow-md flex flex-col">
+      <div class="py-2 px-5 bg-gray-100 pt-5">
+        <div class="flex items-center">
+          <img src="./img/Alien tech logo - side.svg" alt="Alien Resources Logo" class="h-[49px]">
+        </div>
+      </div>
+
+      <nav class="flex pt-2 px-5 bg-gray-100">
+        <ul>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Vector.svg" class="pr-2" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Recruitment.svg" class="pr-2" />
+              <span>Recruitment</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Employee.svg" class="pr-2" />
+              <span>Employee</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Attendance.svg" class="pr-2" />
+              <span>Attendance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Leave.svg" class="pr-2" />
+              <span>Leave</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Pay & Benefits.svg" class="pr-2" />
+              <span>Pay & Benefits</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Performance.svg" class="pr-2" />
+              <span>Performance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Disciplinary.svg" class="pr-2" />
+              <span>Disciplinary</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Lifecycle.svg" class="pr-2" />
+              <span>Employee Lifecycle</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-blue-400 hover:text-blue-400">
+              <img src="img/Analytics.svg" class="pr-2" />
+              <span>Reports & Analytics</span>
+              <i class="fas fa-chevron-up ml-auto text-xs"></i>
+            </a>
+            <ul>   
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500 px-4 ">Overview</li>
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500">Reports</li>
+                <li class="py-2 pl-12 pr-3 text-sm bg-blue-500 text-white rounded-md pl-auto">
+                    <a href="#">Analytics</a>
+                </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="pt-8 pb-4 px-5 border-t flex bg-gray-100">
+        <div class="items-center text-xs text-gray-500">
+          <span>Powered by</span>
+          <img src="img/klevalogo.svg" alt="KlevaHR Logo" class="w-24">
+        </div>
+        <div class="my-auto">
+          <a href="#" class="flex items-center px-3 text-gray-500">
+            <img src="img/Log Out.svg" class="pr-2" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col">
+      <!-- Header -->
+      <header class="bg-white pl-5 pt-3">
+          <div class="flex items-center justify-between">
+              <div class="flex items-center text-sm text-gray-500">
+              <span>Reports & Analytics</span>
+              <span class="mx-2">›</span>
+              <span>Analytics</span>
+              <span class="mx-2">›</span>
+              <span class="text-blue-500">Performance</span>
+              </div>
+          </div>
+      </header>
+
+      <!-- Content -->
+      <div class="flex-1 p-5 overflow-auto">
+        <div class="flex items-center justify-between">
+          <div class="flex">
+            <h1 class="text-2xl mt-1 font-semibold mr-3">Performance</h1>
+          </div>
+
+          <div class="flex items-center">
+            <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full">
+            <img src="img/Help.svg" />
+            </button>
+            <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full mx-1">
+            <img src="img/Notifications.svg" />
+            </button>
+            <img src="img/373b3bbeaaa0ab01e57b95c2fe537ecbb39f5222.jpg" alt="User Avatar" class="h-9 w-9 rounded-full">
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center mt-5 p-4 border-2 border-blue-50 shadow-lg shadow-blue-100 rounded-lg">
+          <div class="flex space-x-2">
+              <button class="rounded ps-3 pe-1 py-2 hover:bg-gray-50">Showing:</button>
+              <div class="border bg-gray-100 rounded px-4 py-2 flex items-center">
+                <p class="text-sm pr-5">All Departments</p>
+                <img src="img/arrow-down.svg">
+              </div>
+          </div>
+          <div class="flex items-center space-x-2">
+              <div class="border bg-gray-100 rounded px-4 py-2 flex items-center">
+                  <p class="text-sm pr-5">January 25, 2023</p>
+                  <img src="img/calendar.svg">
+              </div>
+              <span>To</span>
+              <div class="border bg-gray-100 rounded px-4 py-2 flex items-center">
+                  <p class="text-sm pr-5">January 25, 2024</p>
+                  <img src="img/calendar.svg">
+              </div>
+          </div>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="grid grid-cols-4 gap-6 mt-6">
+          <div class="col-span-1 justify-center flex flex-col border border-blue-50 rounded-lg shadow shadow-blue-100 p-4">
+            <div class="flex">
+              <h2 class="text-lg font-medium text-black">Key</h2>
+            </div>
+            <div class="mb-5 text-gray-500">
+              <div class="flex text-sm mb-1">
+                <div class="rounded-lg bg-emerald-500 h-3 w-4 me-1 my-auto"></div>Exceptional
+              </div>
+              <div class="flex text-sm mb-1">
+                <div class="rounded-lg bg-green-300 h-3 w-4 me-1 my-auto"></div>Outstanding
+              </div>
+              <div class="flex text-sm mb-1">
+                <div class="rounded-lg bg-amber-300 h-3 w-4 me-1 my-auto"></div>Meets Expectation
+              </div>
+              <div class="flex text-sm mb-1">
+                <div class="rounded-lg bg-orange-300 h-3 w-4 me-1 my-auto"></div>Satisfactory
+              </div>
+              <div class="flex text-sm mb-1">
+                <div class="rounded-lg bg-red-300 h-3 w-4 me-1 my-auto"></div>Unsatisfactory
+              </div>
+            </div>
+          </div>
+
+          <div class="col-span-1 flex flex-col border border-blue-50 rounded-lg shadow shadow-blue-100 p-4">
+            <div class="flex justify-center">
+              <h2 class="text-lg font-medium text-black">Employee Appraised</h2>
+            </div>
+            <div class="flex text-black text-5xl font-semibold justify-center my-auto">
+              105
+            </div>
+          </div>
+
+          <div class="col-span-2 border border-blue-50 rounded-lg shadow shadow-blue-100 p-4">
+            <div class="flex justify-between items-center mb-2">
+              <h2 class="text-lg font-medium text-black">Employee Performance</h2>
+              <button>
+                  <i class="fas fa-ellipsis-v text-gray-400"></i>
+              </button>
+            </div>
+            <div class="flex justify-center h-44 space-x-3">
+              <div class="flex flex-col items-center mt-auto">
+                <div class="text-base font-medium mb-1">15</div>
+                <div class="h-8 w-16 bg-emerald-500 rounded-t">
+                </div>
+              </div>
+              <div class="flex flex-col items-center mt-auto">
+                <div class="text-base font-medium mb-1">20</div>
+                <div class="h-12 w-16 bg-green-300 rounded-t">
+                </div>
+              </div>
+              <div class="flex flex-col items-center mt-auto">
+                <div class="text-base font-medium mb-1">30</div>
+                <div class="h-20 w-16 bg-amber-300 rounded-t">
+                </div>
+              </div>
+              <div class="flex flex-col items-center mt-auto">
+                <div class="text-base font-medium mb-1">30</div>
+                <div class="h-20 w-16 bg-orange-300 rounded-t">
+                </div>
+              </div>
+              <div class="flex flex-col items-center mt-auto">
+                <div class="text-base font-medium mb-1">10</div>
+                <div class="h-6 w-16 bg-red-300 rounded-t">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-9 gap-6 mt-6">
+          <div class="col-span-5 grid grid-cols-5 gap-6">
+            <div class="col-span-2 flex flex-col space-y-3">
+              <div class="flex flex-col border border-blue-50 rounded-lg shadow shadow-blue-100 p-4 h-40">
+                <div class="flex">
+                  <h2 class="text-base font-medium text-black">Employees Promoted</h2>
+                </div>
+                <div class="flex text-black text-5xl font-semibold justify-center my-auto">
+                  15
+                </div>
+              </div>
+              <div class="flex flex-col border border-blue-50 rounded-lg shadow shadow-blue-100 p-4 h-40">
+                <div class="flex">
+                  <h2 class="text-base font-medium text-black">Promotion Rate</h2>
+                </div>
+                <div class="flex text-black text-5xl font-semibold justify-center my-auto">
+                  15.2%
+                </div>
+              </div>
+            </div>
+            <div class="col-span-3 border border-blue-50 rounded-lg shadow shadow-blue-100 p-4">
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-base font-medium text-gray-700">Promotion Rate By Department</h2>
+                <img src="img/more.svg" >
+              </div>
+  
+              <div class="flex flex-col items-center h-64">
+                <div class="flex text-center mt-auto">
+                  <div class="flex flex-col font-medium mt-auto">
+                    10.2%
+                    <div class="w-24 h-24 bg-blue-100 rounded-t-md me-2"></div>
+                  </div>
+                </div>
+                <div class="flex items-center w-[100%] px-5 mt-1">
+                  <div class="mr-auto">
+                    <i class="fas fa-chevron-left text-gray-400"></i>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-sm text-gray-600">Development</div>
+                    <div class="text-xs text-gray-500">1/7</div>
+                  </div>
+                  <div class="ml-auto">
+                    <i class="fas fa-chevron-right text-gray-400"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-span-4 border border-blue-50 rounded-lg shadow shadow-blue-100 p-4">
+            <div class="flex justify-between items-center mb-1">
+              <h2 class="text-base font-medium text-gray-700">Promotion Rating In Department</h2>
+              <img src="img/more.svg" >
+            </div>
+
+            <div class="flex flex-col items-center h-64">
+              <div class="flex justify-center h-44 space-x-3 mt-auto">
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">15</div>
+                  <div class="h-8 w-16 bg-emerald-500 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">20</div>
+                  <div class="h-12 w-16 bg-green-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">30</div>
+                  <div class="h-20 w-16 bg-amber-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">30</div>
+                  <div class="h-20 w-16 bg-orange-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">10</div>
+                  <div class="h-6 w-16 bg-red-300 rounded-t">
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center w-[100%] px-5 mt-1">
+                <div class="mr-auto">
+                  <i class="fas fa-chevron-left text-gray-400"></i>
+                </div>
+                <div class="text-center">
+                  <div class="text-sm text-gray-600">Development</div>
+                  <div class="text-xs text-gray-500">1/7</div>
+                </div>
+                <div class="ml-auto">
+                  <i class="fas fa-chevron-right text-gray-400"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-4 border border-blue-50 rounded-lg shadow shadow-blue-100 p-4 mt-6">
+          <div class="flex justify-between items-center mb-1">
+            <h2 class="text-base font-medium text-gray-700">Promotion Rate By Department</h2>
+            <img src="img/more.svg" >
+          </div>
+
+          <div class="flex items-center justify-center">
+            <div class="flex flex-col items-center h-64 me-6">
+              <div class="flex justify-center h-44 space-x-2 mt-auto">
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">0%</div>
+                  <div class="h-6 w-12 bg-emerald-500 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">15%</div>
+                  <div class="h-12 w-12 bg-green-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">25%</div>
+                  <div class="h-16 w-12 bg-amber-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">25%</div>
+                  <div class="h-16 w-12 bg-orange-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">35%</div>
+                  <div class="h-20 w-12 bg-red-300 rounded-t">
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center w-[100%] px-5 mt-1">
+                <div class="text-sm text-gray-600 mx-auto">Low Level</div>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center h-64 me-6">
+              <div class="flex justify-center h-44 space-x-2 mt-auto">
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">0%</div>
+                  <div class="h-6 w-12 bg-emerald-500 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">15%</div>
+                  <div class="h-12 w-12 bg-green-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">25%</div>
+                  <div class="h-16 w-12 bg-amber-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">25%</div>
+                  <div class="h-16 w-12 bg-orange-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">35%</div>
+                  <div class="h-20 w-12 bg-red-300 rounded-t">
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center w-[100%] px-5 mt-1">
+                <div class="text-sm text-gray-600 mx-auto">Mid Level</div>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center h-64">
+              <div class="flex justify-center h-44 space-x-2 mt-auto">
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">0%</div>
+                  <div class="h-6 w-12 bg-emerald-500 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">15%</div>
+                  <div class="h-12 w-12 bg-green-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">25%</div>
+                  <div class="h-16 w-12 bg-amber-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">25%</div>
+                  <div class="h-16 w-12 bg-orange-300 rounded-t">
+                  </div>
+                </div>
+                <div class="flex flex-col items-center mt-auto">
+                  <div class="text-base font-medium mb-1">35%</div>
+                  <div class="h-20 w-12 bg-red-300 rounded-t">
+                  </div>
+                </div>
+              </div>
+              <div class="flex items-center w-[100%] px-5 mt-1">
+                <div class="text-sm text-gray-600 mx-auto">High Level</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="tailwind.js"></script>
+</head>
+
+<body class="font-sans">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <div class="w-56 shadow-md flex flex-col">
+      <div class="py-2 px-5 bg-gray-100 pt-5">
+        <div class="flex items-center">
+          <img src="./img/Alien tech logo - side.svg" alt="Alien Resources Logo" class="h-[49px]">
+        </div>
+      </div>
+
+      <nav class="flex pt-2 px-5 bg-gray-100">
+        <ul>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Vector.svg" class="pr-2" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Recruitment.svg" class="pr-2" />
+              <span>Recruitment</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Employee.svg" class="pr-2" />
+              <span>Employee</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Attendance.svg" class="pr-2" />
+              <span>Attendance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Leave.svg" class="pr-2" />
+              <span>Leave</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Pay & Benefits.svg" class="pr-2" />
+              <span>Pay & Benefits</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Performance.svg" class="pr-2" />
+              <span>Performance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Disciplinary.svg" class="pr-2" />
+              <span>Disciplinary</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Lifecycle.svg" class="pr-2" />
+              <span>Employee Lifecycle</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-blue-400 hover:text-blue-400">
+              <img src="img/Analytics.svg" class="pr-2" />
+              <span>Reports & Analytics</span>
+              <i class="fas fa-chevron-up ml-auto text-xs"></i>
+            </a>
+            <ul>   
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500 px-4 ">Overview</li>
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500">Reports</li>
+                <li class="py-2 pl-12 pr-3 text-sm bg-blue-500 text-white rounded-md pl-auto">
+                    <a href="#">Analytics</a>
+                </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="pt-8 pb-4 px-5 border-t flex bg-gray-100">
+        <div class="items-center text-xs text-gray-500">
+          <span>Powered by</span>
+          <img src="img/klevalogo.svg" alt="KlevaHR Logo" class="w-24">
+        </div>
+        <div class="my-auto">
+          <a href="#" class="flex items-center px-3 text-gray-500">
+            <img src="img/Log Out.svg" class="pr-2" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col">
+        <!-- Header -->
+        <header class="bg-white pl-5 pt-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center text-sm text-gray-500">
+                <span>Reports & Analytics</span>
+                <span class="mx-2">›</span>
+                <span class="text-blue-500">Analytics</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="flex-1 p-5 overflow-auto">
+            <div class="flex items-center justify-between">
+                <div class="flex">
+                  <h1 class="text-2xl mt-1 font-semibold mr-3">Analytics</h1>
+                  <button class="flex border border-blue-400 rounded px-4 py-2 bg-blue-50 text-blue-500">
+                    <img src="img/star.svg">
+                    <span class="ps-1 font-medium">Generate Analytics</span>
+                  </button>
+                </div>
+
+                <div class="flex items-center">
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full">
+                    <img src="img/Help.svg" />
+                    </button>
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full mx-1">
+                    <img src="img/Notifications.svg" />
+                    </button>
+                    <img src="img/373b3bbeaaa0ab01e57b95c2fe537ecbb39f5222.jpg" alt="User Avatar" class="h-9 w-9 rounded-full">
+                </div>
+            </div>
+
+            <!-- Analytics Cards Grid -->
+            <div class="py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/vacancy.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">01.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Vacancy & Hiring</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                    Forecast future hiring needs based on historical data and business growth plans.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/diversity.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">02.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Diversity</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Monitor diversity metrics across different employee groups and identify areas for improvement.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/organization.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">03.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Organizational Level</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Navigate the future with confidence by using data to steer your organization towards its goals.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/salary2.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">04.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Salary</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Assess the competitiveness of your compensation and identify areas for improvement.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/leave2.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">05.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Leave</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Delve into the insights to optimize schedules, boost well-being, and strengthen your workforce.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/absent.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">06.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Absenteeism</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Ensure consistent staffing and workflow by predicting and addressing potential absences.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/available.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">07.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Availability</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Match the right people to the right tasks at the right time, minimizing idle time & maximizing efficiency.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/performance2.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">08.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Performance</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Analyze individual and team performance metrics to optimize compensation and development.
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/exit.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">09.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Exit & Turnover</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  Are there specific departments or demographics with higher turnover rates? Find out here
+                </p>
+              </div>
+
+              <div class="bg-white rounded-md border border-blue-100 shadow p-4 overflow-hidden">
+                <div class="flex flex-col h-48">
+                  <div class="mt-3">
+                    <img src="img/glossary.svg" class="">
+                  </div>
+                  <div class="mt-auto pb-2 border-b-2 border-gray-900">
+                      <p class="">10.</p>
+                      <div class="flex justify-between">
+                        <h3 class="text-lg font-medium">Glossary</h3>
+                        <img src="img/arrow-right-circle.svg">
+                      </div>
+                  </div>
+                </div>
+                <p class="text-gray-500 text-xs mt-1 pb-2">
+                  focuses specifically on the terminology and metrics used within the analytics module.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

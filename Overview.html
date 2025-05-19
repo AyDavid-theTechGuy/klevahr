@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary': '#3B82F6',
+            'secondary': '#E5E7EB',
+            'accent': '#10B981',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <div class="w-64 shadow-md flex flex-col">
+      <div class="py-2 px-5 bg-gray-100 pt-5">
+        <div class="flex items-center">
+          <img src="./img/Alien tech logo - side.svg" alt="Alien Resources Logo" class="h-[49px]">
+        </div>
+      </div>
+
+      <nav class="flex pt-2 px-5 bg-gray-100">
+        <ul>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Vector.svg" class="pr-2" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Recruitment.svg" class="pr-2" />
+              <span>Recruitment</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Employee.svg" class="pr-2" />
+              <span>Employee</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Attendance.svg" class="pr-2" />
+              <span>Attendance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Leave.svg" class="pr-2" />
+              <span>Leave</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Pay & Benefits.svg" class="pr-2" />
+              <span>Pay & Benefits</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Performance.svg" class="pr-2" />
+              <span>Performance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Disciplinary.svg" class="pr-2" />
+              <span>Disciplinary</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Lifecycle.svg" class="pr-2" />
+              <span>Employee Lifecycle</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-blue-400 hover:text-blue-400">
+              <img src="img/Analytics.svg" class="pr-2" />
+              <span>Reports & Analytics</span>
+              <i class="fas fa-chevron-up ml-auto text-xs"></i>
+            </a>
+            <ul>
+                <li class="py-2 pl-12 pr-3 text-sm bg-blue-500 text-white px-4 rounded-md">Overview</li>
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500 pl-auto">
+                    <a href="#">Reports</a>
+                </li>
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500">Analytics</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="pt-8 pb-4 px-5 border-t flex bg-gray-100">
+        <div class="items-center text-xs text-gray-500">
+          <span>Powered by</span>
+          <img src="img/klevalogo.svg" alt="KlevaHR Logo" class="w-24">
+        </div>
+        <div class="my-auto">
+          <a href="#" class="flex items-center px-3 text-gray-500">
+            <img src="img/Log Out.svg" class="pr-2" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col">
+      <!-- Header -->
+      <header class="bg-white pl-5 pt-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center text-sm text-gray-500">
+            <span>Reports & Analytics</span>
+            <span class="mx-2">›</span>
+            <span class="text-blue-500">Overview</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Content -->
+        <div class="flex-1 p-5 overflow-auto">
+            <div class="flex items-center justify-between">
+                <h1 class="text-2xl font-semibold mt-1 mb-4">Overview</h1>
+
+                <div class="flex items-center">
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full">
+                    <img src="img/Help.svg" />
+                    </button>
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full mx-1">
+                    <img src="img/Notifications.svg" />
+                    </button>
+                    <img src="img/373b3bbeaaa0ab01e57b95c2fe537ecbb39f5222.jpg" alt="User Avatar" class="h-9 w-9 rounded-full">
+                </div>
+            </div>
+
+            <!-- Main Dashboard -->
+            <div class="bg-white rounded-lg border border-gray-200 px-12 py-16 mb-6">
+                <div class="flex">
+                    <div class="w-1/2">
+                        <h2 class="text-xl font-semibold text-gray-800 mb-3">Reports & Analytics</h2>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Generate and customize reports with various data sets. Use pre-existing reports or create from scratch. You can also get insights from our detailed analytics section.
+                        </p>
+                        <button class="px-4 py-2 bg-blue-50 text-blue-500 rounded-md border-2 border-blue-400 flex items-center">
+                            <span class="pr-1">Explore Reports</span>
+                            <img src="img/arrow-outward-blue.svg" />
+                        </button>
+                    </div>
+                    <div class="w-1/2 flex justify-center">
+                        <img src="img/draw_report_re_f5n5.png" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analytics Cards Grid -->
+            <div class="w-auto grid grid-cols-5 gap-4">
+
+                <!-- Column 1 -->
+                <div class="col-span-3 grid">
+
+                    <!-- top row -->
+                    <div class="grid grid-cols-2 gap-4 mb-4">
+                        <!-- Head Count Card -->
+                        <div class="grid grid-cols-2 bg-white px-2 py-4 h-auto border border-gray-200 rounded-lg">
+                            <div class="flex flex-col my-auto">
+                                <h3 class="font-semibold text-gray-800">Head Count</h3>
+                                <div class="text-xs text-gray-500">(12 Months)</div>
+                            </div>
+                            <div class="flex flex-row items-center my-auto">
+                                <img src="img/arrow-up-green.svg" />
+                                <span class="text-3xl font-bold">0.20%</span>
+                            </div>
+                        </div>
+
+                        <!-- Gender Card -->
+                        <div class="grid grid-cols-2 bg-white p-4 h-auto border border-gray-200 rounded-lg">
+                            <div class="my-auto">
+                                <div class="mb-2">
+                                    <h3 class="font-semibold text-gray-800">Gender</h3>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 rounded-full bg-blue-400 mr-2"></div>
+                                    <span class="text-sm text-gray-600">Male</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-3 h-3 rounded-full bg-purple-400 mr-2"></div>
+                                    <span class="text-sm text-gray-600">Female</span>
+                                </div>
+                            </div>
+                            <div class="flex h-12 my-auto">
+                                <div class="bg-blue-400 w-24 h-full rounded-l flex items-center justify-center text-white font-medium">66</div>
+                                <div class="bg-purple-400 w-16 h-full rounded-r flex items-center justify-center text-white font-medium">42</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Grade Distribution Card -->
+                    <div class="w-full bg-white p-4 border border-gray-200 rounded-lg">
+                        <h3 class="font-semibold text-gray-800 mb-4">Grade Distribution</h3>
+                        <div class="space-y-3">
+                            <div class="flex flex-row">
+                                <div class="text-sm w-[87px] mr-5">
+                                    <span class="text-gray-600">Management Consultant</span>
+                                </div>
+                                <div class="h-[40px] bg-blue-50 rounded-md w-[87px] flex items-center pl-2 text-xs"></div>
+                                <div class="my-auto ml-1">
+                                    <span class="font-medium">9</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="text-sm w-[87px] mr-5">
+                                    <span class="text-gray-600">Senior Consultant</span>
+                                </div>
+                                <div class="h-[40px] bg-blue-50 rounded-md w-[150px] flex items-center pl-2 text-xs"></div>
+                                <div class="my-auto ml-1">
+                                    <span class="font-medium">17</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="text-sm w-[87px] mr-5">
+                                    <span class="text-gray-600">Consultant</span>
+                                </div>
+                                <div class="h-[40px] bg-blue-50 rounded-md w-[250px] flex items-center text-xs"></div>
+                                <div class="my-auto ml-1">
+                                    <span class="font-medium">35</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="text-sm w-[87px] mr-5">
+                                    <span class="text-gray-600">Associate Consultant</span>
+                                </div>
+                                <div class="h-[40px] bg-blue-50 rounded-md w-[350px] flex items-center text-xs"></div>
+                                <div class="my-auto ml-1">
+                                    <span class="font-medium">48</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-span-2 grid grid-cols-2 gap-3">
+
+                    <!-- Average Age Card -->
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg flex flex-col justify-center">
+                        <img src="img/age.svg" class="w-[54px] pb-16" />
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Average Age</div>
+                            <div class="text-xl font-bold">30.4 years</div>
+                        </div>
+                    </div>
+
+                    <!-- Average Tenure Card -->
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg flex flex-col justify-center">
+                        <img src="img/tenure.svg" class="w-[54px] pb-16" />
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Average Tenure</div>
+                            <div class="text-xl font-bold">3.1 years</div>
+                        </div>
+                    </div>
+
+                    <!-- Total Monthly Salary Card -->
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg flex flex-col justify-center">
+                        <img src="img/salary.svg" class="w-[54px] pb-16" />
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Total Monthly Salary</div>
+                            <div class="text-xl font-bold">₦2.3M</div>
+                        </div>
+                    </div>
+
+                    <!-- Total Monthly Salary Card -->
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg flex flex-col justify-center">
+                        <img src="img/turnover.svg" class="w-[54px] pb-16" />
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Turnover Rate (12 months)</div>
+                            <div class="text-xl font-bold">4.6%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

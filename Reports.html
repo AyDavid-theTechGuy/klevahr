@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <div class="w-64 shadow-md flex flex-col">
+      <div class="py-2 px-5 bg-gray-100 pt-5">
+        <div class="flex items-center">
+          <img src="./img/Alien tech logo - side.svg" alt="Alien Resources Logo" class="h-[49px]">
+        </div>
+      </div>
+
+      <nav class="flex pt-2 px-5 bg-gray-100">
+        <ul>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Vector.svg" class="pr-2" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Recruitment.svg" class="pr-2" />
+              <span>Recruitment</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Employee.svg" class="pr-2" />
+              <span>Employee</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Attendance.svg" class="pr-2" />
+              <span>Attendance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Leave.svg" class="pr-2" />
+              <span>Leave</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Pay & Benefits.svg" class="pr-2" />
+              <span>Pay & Benefits</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Performance.svg" class="pr-2" />
+              <span>Performance</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Disciplinary.svg" class="pr-2" />
+              <span>Disciplinary</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-gray-400 hover:text-blue-400">
+              <img src="img/Lifecycle.svg" class="pr-2" />
+              <span>Employee Lifecycle</span>
+              <i class="fas fa-chevron-down ml-auto text-xs"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-3 py-4 text-blue-400 hover:text-blue-400">
+              <img src="img/Analytics.svg" class="pr-2" />
+              <span>Reports & Analytics</span>
+              <i class="fas fa-chevron-up ml-auto text-xs"></i>
+            </a>
+            <ul>   
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500 px-4 ">Overview</li>
+                <li class="py-2 pl-12 pr-3 text-sm bg-blue-500 text-white rounded-md pl-auto">
+                    <a href="#">Reports</a>
+                </li>
+                <li class="py-2 pl-12 pr-3 text-sm text-gray-500">Analytics</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="pt-8 pb-4 px-5 border-t flex bg-gray-100">
+        <div class="items-center text-xs text-gray-500">
+          <span>Powered by</span>
+          <img src="img/klevalogo.svg" alt="KlevaHR Logo" class="w-24">
+        </div>
+        <div class="my-auto">
+          <a href="#" class="flex items-center px-3 text-gray-500">
+            <img src="img/Log Out.svg" class="pr-2" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col">
+        <!-- Header -->
+        <header class="bg-white pl-5 pt-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center text-sm text-gray-500">
+                <span>Reports & Analytics</span>
+                <span class="mx-2">›</span>
+                <span class="text-blue-500">Reports</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="flex-1 p-5 overflow-auto">
+            <div class="flex items-center justify-between">
+                <h1 class="text-2xl font-semibold mt-1 mb-4">Reports</h1>
+
+                <div class="flex items-center">
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full">
+                    <img src="img/Help.svg" />
+                    </button>
+                    <button class="p-1 text-gray-500 hover:bg-gray-100 rounded-full mx-1">
+                    <img src="img/Notifications.svg" />
+                    </button>
+                    <img src="img/373b3bbeaaa0ab01e57b95c2fe537ecbb39f5222.jpg" alt="User Avatar" class="h-9 w-9 rounded-full">
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center mt-2">
+                <p class="text-gray-700">8 Modules</p>
+                <div class="relative">
+                    <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                    <input type="text" placeholder="Search report name..." class="bg-gray-100 pl-10 pr-4 py-2 rounded-full border border-gray-300 w-64 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                </div>
+            </div>
+
+            <!-- Report Modules Grid -->
+            <div class="px-2 py-4 grid grid-cols-4 gap-6">
+                <!-- Recruitment Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">3</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">RECRUITMENT</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Employee Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">4</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">EMPLOYEE</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Attendance Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">5</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">ATTENDANCE</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leave Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">4</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">LEAVE</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pay & Benefits Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">5</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">PAY & BENEFITS</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">3</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">PERFORMANCE</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Displinary Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">6</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">DISCIPLINARY</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lifecycle Module -->
+                <div class="gradient-bg rounded-lg border border-gray-200 overflow-hidden relative">
+                    <div class="px-4 pt-16 pb-2 flex flex-col h-full">
+                        <div class="text-blue-500 text-5xl font-light">5</div>
+                        <div class="text-gray-500 uppercase text-sm font-medium mt-2 mb-5">LIFECYCLE</div>
+                        <div class="p-2 rounded-full ml-auto">
+                            <img src="img/arrow-moon.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
